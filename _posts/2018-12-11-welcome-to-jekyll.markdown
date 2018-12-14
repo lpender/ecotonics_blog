@@ -1,8 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+author: Doug Von Kohorn
+title:  "Blockchain 104: Money"
 date:   2018-12-11 11:08:04 -0500
 categories: jekyll update
+image: https://rhombus.network/assets/computable.gif
+excerpt: "Money is an astounding thing because it can convert anything into
+almost anything else. Money also is incredibly open-minded — it spans every
+culture, and refrains from discriminating about religion, gender, race, age or
+sexual orientation. Thanks to money, even people who don’t know each other, and
+don’t trust each other, can nevertheless cooperate."
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

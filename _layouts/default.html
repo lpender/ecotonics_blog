@@ -5,9 +5,13 @@
 
   <body>
 
-    {%- include header.html -%}
+    <a class="logo-wrapper">
+      {%- include logo.html -%}
+    </a>
 
     <main class="page-content" aria-label="Content">
+      {%- include header.html -%}
+
       <div class="wrapper">
         {{ content }}
       </div>
