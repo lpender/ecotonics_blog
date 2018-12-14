@@ -6,7 +6,7 @@
   <link rel="icon" href="{{ "/assets/images/Rhombus-Icon-120.png"  | relative_url}}" sizes="192x192">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' and site.segment -%}
+    {%- include segment.html -%}
   {%- endif -%}
 </head>
