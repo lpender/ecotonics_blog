@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Oracular Vernacular
+company_name: Rhombus Network
 email: admin@rhombus.network
 description: >- # this means to ignore newlines until "baseurl:"
   A blog by Rhombus Network, provider of ethereum blockchain oracles.

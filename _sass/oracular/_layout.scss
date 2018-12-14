@@ -1,9 +1,10 @@
-main.page-content {
+.wrapper {
   margin-left: 250px;
   margin-top: 50px;
   width: -webkit-calc(100vw - 250px - 360px);
   width: calc(100vw - 250px - 360px);
   max-width: 1390px;
+  min-width: 780px;
 }
 
 .site-title {
@@ -94,3 +95,15 @@ main.page-content {
   flex-basis: 31%;
 }
 
+.rss-subscribe {
+  display: none;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  fill: currentColor;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
