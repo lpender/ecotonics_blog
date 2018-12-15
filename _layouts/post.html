@@ -2,11 +2,9 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
   <header class="post-header">
     <!-- <h1 class="post&#45;title p&#45;name" itemprop="name headline">{{ page.title | escape }}</h1> -->
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {%- if page.author -%}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
         <span class="p-author" itemprop="name">{{ page.author }}</span>
@@ -16,8 +14,12 @@ layout: default
         <a class="p-author-handle" target="_blank" href="https://twitter.com/{{page.author_handle}}">@{{ page.author_handle }}</a>
       {%- endif -%}
       <span>/</span>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       <span class="post-header__date">
-        {{ page.date | timeago }}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </span>
+      <span class="post-header__timeago">
       </span>
     </time>
   </header>
@@ -32,3 +34,23 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+<script>
+  // Fill "time ago"
+  var script = document.createElement("script");
+  script.addEventListener("load", function(event) {
+    console.log("Script finished loading and executing");
+  });
+  script.src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js";
+  script.async = true;
+  document.getElementsByTagName("body")[0].appendChild(script);
+
+  script.onload = function () {
+    var datetime =
+      document.querySelectorAll("time[itemprop='datePublished']")[0].dateTime;
+
+    var string = moment(datetime).fromNow();
+
+    document.querySelectorAll(".post-header__timeago")[0].innerText = string;
+  }
+</script>
