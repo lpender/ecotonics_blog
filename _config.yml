@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Oracular Vernacular
 company_name: Rhombus Network
+company_url: https://rhombus.network
 email: admin@rhombus.network
 description: >- # this means to ignore newlines until "baseurl:"
   A blog by Rhombus Network, provider of ethereum blockchain oracles.
