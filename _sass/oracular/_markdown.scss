@@ -1,0 +1,44 @@
+/** Markdown Modifications **/
+.markdown-body {
+  ol {
+    padding-left: 0;
+    margin-left: 0;
+    list-style: none;
+    counter-reset: oracular-counter;
+  }
+
+  ol li {
+    counter-increment: oracular-counter;
+  }
+
+  ol li::before {
+    content: counter(oracular-counter) '. ';
+    font-size: 0.75em;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 6px;
+  }
+
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin-left: 41px;
+    padding-left: 2px;
+    list-style-type: none;
+    position: relative;
+  }
+
+  ul li:before {
+    color: $brand-color;
+    content: '\2022 ';
+    position: absolute;
+    left: -15px;
+  }
+
+  pre > code {
+    font-size: 0.875em;
+  }
+}

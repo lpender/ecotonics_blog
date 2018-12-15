@@ -1,15 +1,12 @@
 .wrapper {
   margin-left: 250px;
-  margin-top: 50px;
-  width: -webkit-calc(100vw - 250px - 360px);
-  width: calc(100vw - 250px - 360px);
-  max-width: 1390px;
-  min-width: 780px;
+  margin-top: 38px;
+  max-width: 870px;
 }
 
 .site-title {
   font-size: 3em;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -17,6 +14,8 @@
 .site-subtitle {
   font-size: 20px;
   margin-bottom: 25px;
+  margin-top: 6px;
+  color: #555;
 
   & > a {
     font-weight: 600;
@@ -38,11 +37,12 @@
 
   &:hover {
     text-decoration: inherit;
-    color: $brand-color;;
+    color: $brand-color;
     opacity: 0.6;
   }
 }
 
+/* Home Page */
 .post-block {
   border-top: 2px solid $light-grey;
   display: flex;
@@ -58,7 +58,7 @@
   color: #111;
   font-size: 29.25px;
   font-weight: 600;
-  line-height: 1.10;
+  line-height: 1.1;
   margin-bottom: 10px;
 }
 
@@ -73,14 +73,25 @@
   display: none;
 }
 
+.post-block__image {
+  picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+  }
+}
+
 .post-block__header {
   flex-basis: 28%;
 }
 
-.post-block__content {
+.post-block__content,
+.post-content {
   display: block;
   flex-basis: 32%;
   flex-shrink: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 
   p {
     color: #777;
@@ -106,4 +117,72 @@
   fill: currentColor;
   padding-right: 5px;
   vertical-align: text-bottom;
+}
+
+/* Posts */
+
+.post-header {
+  display: flex;
+  font-size: 0.875em;
+  justify-content: flex-start;
+  color: #777;
+  margin-bottom: 30px;
+
+  > * {
+    margin-right: 20px;
+  }
+}
+
+.p-author {
+  font-weight: bold;
+}
+
+.post-content {
+  font-family: Georgia;
+  margin-bottom: 120px;
+  font-size: 20.75px;
+  line-height: 1.58;
+  color: #333;
+  max-width: 740px;
+
+  > p:first-child:first-letter {
+    color: #ef9688;
+    float: left;
+    font-family: Helvetica;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+
+  blockquote {
+    color: #777;
+  }
+
+  p {
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    color: #333;
+    font-family: Georgia;
+    font-size: 20.75px;
+    line-height: 1.58;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-family: Gilroy;
+    font-weight: 600;
+    margin-top: 45px;
+  }
+
+  strong {
+    // font-size: 0.9em;
+  }
+
+  figure {
+    margin-left: -50px;
+    width: calc(100% + 100px);
+    margin-top: $spacing-unit * 2;
+  }
 }

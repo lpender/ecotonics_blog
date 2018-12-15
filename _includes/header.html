@@ -2,11 +2,17 @@
 
   <div class="main-content wrapper">
     <h1 class="site-title" rel="author" href="{{ "/" | relative_url }}">
-      {{ site.title | escape }}
+      {{ include.title | escape }}
     </h1>
 
-    <h2 class="site-subtitle">a blog by
-      <a href="https://rhombus.network">rhombus</a>
+    <h2 class="site-subtitle">
+      {% if include.subtitle %}
+        <strong>
+          {{ include.subtitle }}
+        </strong>
+      {% else %}
+        a blog by <a href="https://rhombus.network">rhombus</a>
+      {% endif %}
     </h2>
   </div>
 </header>

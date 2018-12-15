@@ -42,10 +42,5 @@ $on-laptop: 800px !default;
 }
 
 // Import partials.
-@import
-  'normalize',
-  'oracular/base',
-  'oracular/layout',
-  'oracular/logo',
-  'oracular/footer'
-;
+@import 'normalize', 'oracular/base', 'oracular/layout', 'oracular/logo',
+  'oracular/footer', 'oracular/post', 'oracular/markdown';
