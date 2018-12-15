@@ -3,7 +3,7 @@ layout: post
 author: Doug von Kohorn
 title:  "Blockchain 102: Truth"
 date:   2018-12-11 11:08:04 -0500
-categories: jekyll update
+categories: oracles
 image: /assets/images/Mosquito-In-Amber.png
 excerpt: "Money is an astounding thing because it can convert anything into
 almost anything else. Money also is incredibly open-minded — it spans every

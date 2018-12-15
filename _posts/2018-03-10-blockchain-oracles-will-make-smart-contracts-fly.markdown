@@ -55,7 +55,6 @@ Outside the very narrow domain of science, people typically perceive events as
 true **relative to their model of the world**:
 
 1. What’s the temperature in Springfield, Massachusetts?
-
-  - According to which weather stations?
+    - According to which weather stations?
 
 
