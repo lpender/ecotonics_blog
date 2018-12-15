@@ -34,7 +34,7 @@
   ul li:before {
     color: $brand-color;
     content: '\2022 ';
-    position: absolute;
+    position: relative;
     left: -15px;
   }
 
