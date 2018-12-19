@@ -29,6 +29,9 @@
 .post-list {
   margin-left: 0;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 38px;
 }
 
 .post-link {
@@ -50,7 +53,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 2.425em;
-  margin-top: 2em;
   padding-top: 1.425em;
 }
 
