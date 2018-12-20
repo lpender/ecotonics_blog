@@ -22,7 +22,7 @@ in order to maximize SEO and "network-effect".
 
 ```
 bundle install
-bundle exec jekyll serve --incremental
+bundle exec jekyll serve
 ```
 
 ## Creating a post
