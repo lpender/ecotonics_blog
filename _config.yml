@@ -30,7 +30,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/Rhombus-Icon-120.png
+      image: /assets/images/logo-192.png
 
 # Build settings
 markdown: kramdown
