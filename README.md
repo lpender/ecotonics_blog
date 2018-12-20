@@ -4,6 +4,7 @@ This repository contains the blog of [Rhombus
 Network](https://rhombus.network/).
 
 Framework: [Jekyll](https://jekyllrb.com/)
+
 Deployment: [Github Pages](https://pages.github.com/)
 
 ## Philosophy
@@ -38,7 +39,8 @@ handle, the date, etc.
 
 If the date is in the future, the post will become live on that date.
 
-The post is simply markdown.
+The post content is simply
+[markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 ## Publishing a post
 
