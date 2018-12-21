@@ -14,17 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Oracular Vernacular
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog by Rhombus Network, provider of ethereum blockchain oracles.
 company_name: Rhombus Network
 company_url: https://rhombus.network
 email: admin@rhombus.network
-description: >- # this means to ignore newlines until "baseurl:"
-  A blog by Rhombus Network, provider of ethereum blockchain oracles.
 baseurl: "/rhombus-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.rhombus.network" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rhombusnetwork
 github_username:  rhombusnetwork
 segment: fVgRxugsFrFLAZI6GsOIcGr0ttIjC1HG
 show_excerpts: true
+icon: "/assets/images/logo-192.png"
 
 defaults:
   - scope:
@@ -36,7 +37,7 @@ defaults:
 markdown: kramdown
 # theme: minima
 plugins:
-  - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

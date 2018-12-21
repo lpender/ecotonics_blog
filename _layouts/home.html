@@ -48,7 +48,12 @@ layout: default
       {%- endfor -%}
     </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">
+      subscribe
+      <a type="application/rss+xml" href="{{ "/feed.xml" | relative_url }}">
+        via RSS
+      </a>
+    </p>
   {%- endif -%}
 
 </div>
