@@ -182,9 +182,12 @@
   font-weight: bold;
 }
 
+.post.h-entry {
+  margin-bottom: $spacing-unit * 4;
+}
+
 .post-content {
   font-family: Georgia;
-  margin-bottom: 120px;
   font-size: 20.75px;
   line-height: 1.58;
   color: #333;
@@ -229,5 +232,24 @@
     margin-left: -30px;
     width: calc(100% + 60px);
     margin-top: $spacing-unit * 2;
+  }
+}
+
+.post-keywords {
+  display: flex;
+  margin: 30px 0 0;
+  padding: $spacing-unit 0;
+  list-style: none;
+  justify-content: flex-start;
+
+  > li {
+    margin-right: 8px;
+    background: #efefef;
+    border-radius: 5px;
+    border: 1px solid $brand-color;
+    padding: 5px 10px;
+    white-space: nowrap;
+    font-family: Gilroy;
+    font-size: 0.875em;
   }
 }

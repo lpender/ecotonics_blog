@@ -28,6 +28,16 @@ layout: default
     {{ content }}
   </div>
 
+  <ul class="post-keywords">
+    {%- if page.keywords.size > 0 -%}
+      {%- for keyword in page.keywords -%}
+      <li>
+        {{ keyword }}
+      </li>
+      {%- endfor -%}
+    {%- endif -%}
+  </ul>
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
