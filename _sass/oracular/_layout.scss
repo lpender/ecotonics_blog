@@ -251,9 +251,11 @@
   padding: $spacing-unit 0;
   list-style: none;
   justify-content: flex-start;
+  flex-wrap: wrap;
 
   > li {
     margin-right: 8px;
+    margin-bottom: 15px;
     background: #efefef;
     border-radius: 5px;
     border: 1px solid $brand-color;
