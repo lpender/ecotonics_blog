@@ -5,7 +5,7 @@ author_handle: dougvk
 title:  "Blockchain Oracles Will Make Smart Contracts Fly"
 subtitle: "Oracles will be the biggest infrastructure innovation of 2018"
 date:   2018-03-10 12:00:00 -0500
-keywords: [blockchain, truth, subjectivity, risk-taking, smart-contracts]
+tags: [blockchain, truth, subjectivity, risk-taking, smart-contracts]
 excerpt: "At a very high level, using an oracle means receiving data from
 outside of a blockchain. Said another way, an oracle provides a connection
 between real world events and a blockchain."
@@ -79,7 +79,7 @@ transparent, and minimally trusted way?**
 
 ## Metaphors for Oracles
 
-## 1. A Whiteboard for Decisions
+### 1. A Whiteboard for Decisions
 
 The beauty of blockchain technology is that it forces everybody to work in the
 open. We take a whiteboard, we take turns writing something on the whiteboard,
@@ -173,8 +173,7 @@ catches ISPs invisibly redirecting download requests for popular programs,
 injecting them with government spyware. Unencrypted web traffic is now provably
 a critical, in-the-wild vulnerability. 20-30% of top internet sites affected. <a
 href="https://t.co/5RR8BlkicH">https://t.co/5RR8BlkicH</a></p>&mdash; Edward
-Snowden (@Snowden) <a
-href="https://twitter.com/Snowden/status/972110541408952320?ref_src=twsrc%5Etfw">March
+Snowden (@Snowden) <a href="https://twitter.com/Snowden/status/972110541408952320?ref_src=twsrc%5Etfw">March
 9, 2018</a></blockquote>
 
 <figcaption>One of the many asymmetries between users and institutions today.
@@ -220,8 +219,7 @@ when honesty is lacking, we suffer, and society suffers. With improved tools for
 scaling trust and truth, we will do better.
 
 > (Thanks to Nassim Nicholas Taleb for the Skin in the Game metaphor. A good
-> deal
-of this post is inspired by his latest work. All errors of interpretation are my
-own.
+> deal of this post is inspired by his latest work. All errors of interpretation
+> are my own.)
 
 
