@@ -12,7 +12,13 @@
 
 .site-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+
+  @include media-query($on-palm) {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .main-content {
