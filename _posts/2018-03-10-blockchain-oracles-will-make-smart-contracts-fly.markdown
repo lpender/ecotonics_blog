@@ -167,13 +167,15 @@ hide risks in ways that are impossible to discover until it is too late. The
 social security numbers, and thousands more. Users have no recourse, and the
 institutions remain unharmed.
 
-> This attack could have been prevent post-2013, when the
-[@IETF](https://twitter.com/IETF) considered including mandatory encryption as
-part of the new HTTP/2.0 standard. But they blocked it despite explicit warnings
-that without that protection, users would soon face exactly the attacks we see
-today. [https://t.co/n6Ezz5zil4](https://t.co/n6Ezz5zil4)
-
--[@Snowden](https://twitter.com/Snowden/status/972115183572267009)
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Huge: <a
+href="https://twitter.com/citizenlab?ref_src=twsrc%5Etfw">@Citizenlab</a>
+catches ISPs invisibly redirecting download requests for popular programs,
+injecting them with government spyware. Unencrypted web traffic is now provably
+a critical, in-the-wild vulnerability. 20-30% of top internet sites affected. <a
+href="https://t.co/5RR8BlkicH">https://t.co/5RR8BlkicH</a></p>&mdash; Edward
+Snowden (@Snowden) <a
+href="https://twitter.com/Snowden/status/972110541408952320?ref_src=twsrc%5Etfw">March
+9, 2018</a></blockquote>
 
 <figcaption>One of the many asymmetries between users and institutions today.
 </figcaption>
