@@ -32,6 +32,11 @@
   line-height: 1.1;
   font-weight: 600;
   margin-bottom: 0;
+
+  @include media-query($on-tablet) {
+    font-size: 2em;
+    margin-bottom: $spacing-unit/2;
+  }
 }
 
 .site-subtitle {

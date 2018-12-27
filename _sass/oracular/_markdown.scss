@@ -1,41 +1,46 @@
 /** Markdown Modifications **/
 .markdown-body {
+  ul,
   ol {
     padding-left: 0;
-    margin-left: 0;
+
+    li:before {
+      margin-left: -18px;
+      position: relative;
+      left: -8px;
+    }
+  }
+
+  ol {
     list-style: none;
     counter-reset: oracular-counter;
   }
 
-  ol li {
+  ol > li {
     counter-increment: oracular-counter;
   }
 
-  ol li::before {
+  ol > li::before {
     content: counter(oracular-counter) '. ';
-    font-size: 0.75em;
-    font-weight: bold;
-    margin-left: 25px;
-    margin-right: 6px;
+    font-size: 1em;
+    font-weight: 300;
+    font-family: Times New Roman;
   }
 
-  ul {
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  ul li {
-    margin-left: 41px;
-    padding-left: 2px;
+  ul > li {
+    margin-bottom: 15px;
     list-style-type: none;
-    position: relative;
   }
 
-  ul li:before {
+  ul > li:before {
     color: $brand-color;
     content: '\2022 ';
-    position: relative;
-    left: -15px;
+    margin-left: -8px;
+    left: -12px;
+  }
+
+  ol ul {
+    margin-top: 15px;
   }
 
   pre > code {

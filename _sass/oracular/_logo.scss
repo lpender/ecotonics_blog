@@ -2,7 +2,7 @@
   position: fixed;
   top: 30px;
   left: 30px;
-  width: 50px;
+  width: 90px;
   padding: 0px;
 
   svg {
@@ -12,10 +12,12 @@
   @include media-query($on-tablet) {
     position: static;
     margin-right: 30px;
-    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
   }
 
   @include media-query($on-palm) {
+    width: 50px;
     position: static;
     margin-right: 0;
     margin-top: 0;
