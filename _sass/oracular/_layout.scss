@@ -130,10 +130,13 @@
   p {
     color: #777;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 15.75px;
     line-height: 1.43;
     letter-spacing: 0.25px;
   }
+}
+
+.post-block__content p {
+  font-size: 15.75px;
 }
 
 .post-block__image {
@@ -193,6 +196,10 @@
   color: #333;
   max-width: 740px;
 
+  @include media-query($on-palm) {
+    font-size: 18px;
+  }
+
   > p:first-child:first-letter {
     color: #ef9688;
     float: left;
@@ -213,7 +220,6 @@
     --baseline-multiplier: 0.17;
     color: #333;
     font-family: Georgia;
-    font-size: 20.75px;
     line-height: 1.58;
   }
 
@@ -222,6 +228,10 @@
     font-family: Gilroy;
     font-weight: 600;
     margin-top: 45px;
+
+    @include media-query($on-palm) {
+      font-size: 24px;
+    }
   }
 
   strong {
