@@ -26,6 +26,7 @@ github_username:  rhombusnetwork
 segment: "iSf63pEG94lzRC8ym9pcBRMdrSsSn8oG"
 show_excerpts: true
 icon: "/assets/images/logo-192.png"
+permalink: /:categories/:title
 
 defaults:
   - scope:
