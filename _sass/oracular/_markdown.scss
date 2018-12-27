@@ -9,6 +9,10 @@
       position: relative;
       left: -8px;
     }
+
+    li {
+      margin-bottom: $spacing-unit/2;
+    }
   }
 
   ol {
@@ -53,5 +57,19 @@
 
   strong {
     font-size: 0.9em;
+  }
+
+  li > p {
+    margin-top: 0;
+    display: inline;
+  }
+
+  blockquote {
+    margin: $spacing-unit * 2 0;
+    border-left: none;
+  }
+
+  h3 {
+    font-family: Gilroy;
   }
 }

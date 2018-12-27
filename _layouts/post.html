@@ -28,11 +28,11 @@ layout: default
     {{ content }}
   </div>
 
-  <ul class="post-keywords">
-    {%- if page.keywords.size > 0 -%}
-      {%- for keyword in page.keywords -%}
+  <ul class="post-tags">
+    {%- if page.tags.size > 0 -%}
+      {%- for tags in page.tags -%}
       <li>
-        {{ keyword }}
+        {{ tags }}
       </li>
       {%- endfor -%}
     {%- endif -%}
