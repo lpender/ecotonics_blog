@@ -3,4 +3,16 @@
   top: 0;
   left: 0;
   padding: 30px;
+
+  svg {
+    max-width: 100%;
+  }
+
+  @include media-query($on-tablet) {
+    position: static;
+  }
+
+  @include media-query($on-palm) {
+    display: none;
+  }
 }

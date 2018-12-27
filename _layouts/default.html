@@ -5,16 +5,13 @@
 
   <body>
 
-    <a class="logo-wrapper" href="{{ site.baseurl }}/">
-      {%- include logo.html -%}
-    </a>
 
     <main class="page-content" aria-label="Content">
       {%- assign title = page.title | default: site.title -%}
       {%- assign subtitle = page.subtitle | default: site.subtitle -%}
       {%- include header.html title=title subtitle=subtitle -%}
 
-      <div class="wrapper">
+      <div class="posts-wrapper wrapper">
         {{ content }}
       </div>
     </main>

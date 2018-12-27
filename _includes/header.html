@@ -1,6 +1,9 @@
-<header class="site-header" role="banner">
+<header class="site-header wrapper" role="banner">
+  <a class="logo-wrapper" href="{{ site.baseurl }}">
+    {%- include logo.html -%}
+  </a>
 
-  <div class="main-content wrapper">
+  <div class="main-content">
     <h1 class="site-title" rel="author" href="{{ "/" | relative_url }}">
       {{ include.title | escape }}
     </h1>
