@@ -4,7 +4,7 @@ author: Doug von Kohorn
 title:  "Blockchain 102: Truth"
 date:   2018-12-11 11:08:04 -0500
 published: false
-image: assets/images/Mosquito-In-Amber.png
+image: assets/images/posts/Blockchain-102-Truth/Mosquito-In-Amber.png
 excerpt: "Money is an astounding thing because it can convert anything into
 almost anything else. Money also is incredibly open-minded — it spans every
 culture, and refrains from discriminating about religion, gender, race, age or
@@ -12,7 +12,7 @@ sexual orientation. Thanks to money, even people who don’t know each other, an
 don’t trust each other, can nevertheless cooperate."
 ---
 
-{% include image.html url="assets/images/Mosquito-In-Amber.png" description="Typical computers are computational etch-a-sketch, while blockchains are computational amber. — Nick Szabo" %}
+{% include image.html url="assets/images/posts/Blockchain-102-Truth/Mosquito-In-Amber.png" description="Typical computers are computational etch-a-sketch, while blockchains are computational amber. — Nick Szabo" %}
 
 Why do you follow rules? You follow rules because everyone else does. You follow
 the rules because they benefit you. Computers don’t work for you unless you
