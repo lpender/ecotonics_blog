@@ -85,10 +85,11 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
-  padding: 1em;
-  letter-spacing: 0;
   color: #555;
+  font-size: $small-font-size;
+  letter-spacing: 0;
+  padding: 1em;
+  text-align: center;
 }
 
 /**
