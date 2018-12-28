@@ -1,11 +1,13 @@
 ---
   layout: post
+  date: 2018-01-20 12:00:00 -0500
   title: "Run your own mainnet Lightning Node"
   subtitle: "Go from nothing to stickers using the instant Lightning network"
   tags: [Bitcoin, Lightning Network, Blockchain, Blockstream, P2p Payments]
   author: Doug von Kohorn
   author_handle: dougvk
   categories:
+  image: "assets/images/posts/Run-your-own-mainnet-Lightning-Node/other-node-square.png"
   excerpt: "With Lightning’s payment channels, Bitcoin has a chance to prove it
   can scale. I eagerly anticipated the release of the v1.0 Lightning
   specification. I wasn’t motivated enough to run it, however, until Blockstream
