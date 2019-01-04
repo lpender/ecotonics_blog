@@ -7,6 +7,7 @@
   author: Doug von Kohorn
   author_handle: dougvk
   categories:
+  published: false
   image: "assets/images/posts/Run-your-own-mainnet-Lightning-Node/other-node-square.png"
   excerpt: "With Lightning’s payment channels, Bitcoin has a chance to prove it
   can scale. I eagerly anticipated the release of the v1.0 Lightning
