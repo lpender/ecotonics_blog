@@ -1,11 +1,18 @@
 ---
   layout: post
+  canonical_url: "https://medium.com/@dougvk/blockchain-101-trust-5aa7113c25d5"
   author: Doug von Kohorn
   author_handle: dougvk
   date:   2017-05-19 12:00:00 -0500
   title: "Blockchain 101: Trust"
+  image: "https://image.shutterstock.com/image-illustration/falling-intro-trusting-hands-260nw-46355140.jpg"
   tags: [Blockchain, Society, Law, Government, Economics]
-  excerpt: "Blockchain is a fundamental upgrade: an invention to solve trust, with broad implications for society. In the future, interactions that rely on trusting strangers will be mediated by some form of blockchain. These relationships underlie the most fundamental aspects of society, creating a world of opportunity. There are many kinds of blockchain products, and **trust** is the foundation for all of them. "
+  excerpt: "Blockchain is a fundamental upgrade: an invention to solve trust,
+  with broad implications for society. In the future, interactions that rely on
+  trusting strangers will be mediated by some form of blockchain. These
+  relationships underlie the most fundamental aspects of society, creating a
+  world of opportunity. There are many kinds of blockchain products, and
+  **trust** is the foundation for all of them. "
 ---
 
 Blockchain is a fundamental upgrade: an invention to solve trust, with broad

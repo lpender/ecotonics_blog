@@ -1,10 +1,12 @@
 ---
 layout: post
+canonical_url: "https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c"
 author: Doug von Kohorn
 author_handle: dougvk
 title:  "Blockchain Oracles Will Make Smart Contracts Fly"
 subtitle: "Oracles will be the biggest infrastructure innovation of 2018"
 date:   2018-03-10 12:00:00 -0500
+image: "https://image.shutterstock.com/image-photo/dramatic-rocket-launch-elements-this-260nw-1027726537.jpg"
 tags: [blockchain, truth, subjectivity, risk-taking, smart-contracts]
 excerpt: "At a very high level, using an oracle means receiving data from
 outside of a blockchain. Said another way, an oracle provides a connection
