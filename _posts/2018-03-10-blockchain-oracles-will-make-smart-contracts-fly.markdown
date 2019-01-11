@@ -225,3 +225,5 @@ scaling trust and truth, we will do better.
 > are my own.)
 
 
+> _This article was originally posted on [Medium](https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c)_.
+

@@ -127,3 +127,5 @@ their current capacity. Turns out, in order to solve the problems of delete,
 alter, and control, you have to design a technology whose main feature ensures
 that **nobody controls it** and **everyone can use it.** Blockchain will do just
 that, and open the door to truly global societies.
+
+> _This article was originally posted on [Medium](https://medium.com/@dougvk/blockchain-101-trust-5aa7113c25d5)_.

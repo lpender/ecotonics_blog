@@ -48,8 +48,8 @@ layout: default
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
 
+<!-- Fill "time ago"  -->
 <script>
-  // Fill "time ago"
   var script = document.createElement("script");
   script.addEventListener("load", function(event) {
     console.log("Script finished loading and executing");
@@ -67,4 +67,6 @@ layout: default
     document.querySelectorAll(".post-header__timeago")[0].innerText = string;
   }
 </script>
+
+<!-- Twitter -->
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
