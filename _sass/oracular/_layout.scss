@@ -175,6 +175,7 @@
   display: flex;
   font-size: 0.875em;
   justify-content: flex-start;
+  align-items: center;
   color: #777;
   margin-bottom: 30px;
 
@@ -187,8 +188,32 @@
   display: none;
 }
 
+.post-meta {
+  margin-bottom: 0;
+}
+
+.author {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
 .p-author {
   font-weight: bold;
+
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
+
+.p-author-image {
+  border-radius: 100px;
+  margin-right: 10px;
+  width: 50px;
+
+  @include media-query($on-palm) {
+    margin-right: 0;
+  }
 }
 
 .post.h-entry {

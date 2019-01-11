@@ -6,12 +6,15 @@ layout: default
     <!-- <h1 class="post&#45;title p&#45;name" itemprop="name headline">{{ page.title | escape }}</h1> -->
     <p class="post-meta">
       {%- if page.author -%}
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span class="p-author" itemprop="name">{{ page.author }}</span>
+      {%- assign author = site.data.authors[page.author] -%}
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <img class="p-author-image" itemprop="image" src="{{ author.picture | relative_url }}" />
+        <span class="p-author" itemprop="name">{{ author.name }}</span>
       </span>
       {%- endif -%}</p>
-      {%- if page.author_handle -%}
-        <a class="p-author-handle" target="_blank" href="https://twitter.com/{{page.author_handle}}">@{{ page.author_handle }}</a>
+      {%- if author.twitter -%}
+        <a class="p-author-handle" target="_blank"
+          href="https://twitter.com/{{ author.twitter }}">@{{ author.twitter }}</a>
       {%- endif -%}
       <span>/</span>
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">

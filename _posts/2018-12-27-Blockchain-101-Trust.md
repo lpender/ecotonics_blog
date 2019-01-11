@@ -1,8 +1,7 @@
 ---
   layout: post
   canonical_url: "https://medium.com/@dougvk/blockchain-101-trust-5aa7113c25d5"
-  author: Doug von Kohorn
-  author_handle: dougvk
+  author: dougvk
   date:   2017-05-19 12:00:00 -0500
   title: "Blockchain 101: Trust"
   image: "https://image.shutterstock.com/image-illustration/falling-intro-trusting-hands-260nw-46355140.jpg"

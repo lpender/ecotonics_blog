@@ -22,7 +22,7 @@ layout: default
               </h3>
               <div class="post-block__meta">
                 <span class="post-block__meta__author">
-                  {{ post.author }}
+                  {{ site.data.authors[post.author].name }}
                 </span>
                 <span class="post-block__date">
                   {{ post.date | date: date_format }}

@@ -1,8 +1,7 @@
 ---
 layout: post
 canonical_url: "https://hackernoon.com/oracles-help-smart-contracts-resolve-subjective-events-d81639d8291c"
-author: Doug von Kohorn
-author_handle: dougvk
+author: dougvk
 title:  "Blockchain Oracles Will Make Smart Contracts Fly"
 subtitle: "Oracles will be the biggest infrastructure innovation of 2018"
 date:   2018-03-10 12:00:00 -0500
