@@ -5,7 +5,7 @@ author: dougvk
 title:  "Blockchain Oracles Will Make Smart Contracts Fly"
 subtitle: "Oracles will be the biggest infrastructure innovation of 2018"
 date:   2018-03-10 12:00:00 -0500
-image: "/assets/images/posts/Blockchain-Oracles-Will-Make-Smart-Contracts-Fly/shutterstock_1027726537.jpg"
+image: "/assets/images/posts/Blockchain-Oracles-Will-Make-Smart-Contracts-Fly/space_ship.jpg"
 tags: [blockchain, truth, subjectivity, risk-taking, smart-contracts]
 excerpt: "At a very high level, using an oracle means receiving data from
 outside of a blockchain. Said another way, an oracle provides a connection

@@ -4,7 +4,7 @@
   author: dougvk
   date:   2017-05-19 12:00:00 -0500
   title: "Blockchain 101: Trust"
-  image: "/assets/images/posts/Blockchain-101-Trust/shutterstock_46355140.jpg"
+  image: "/assets/images/posts/Blockchain-101-Trust/trust_fall.jpg"
   tags: [Blockchain, Society, Law, Government, Economics]
   excerpt: "Blockchain is a fundamental upgrade: an invention to solve trust,
   with broad implications for society. In the future, interactions that rely on
