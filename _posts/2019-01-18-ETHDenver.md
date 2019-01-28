@@ -1,7 +1,7 @@
 ---
   layout: post
   author: dougvk
-  date:   2018-01-30 12:00:00 -0500
+  date:   2019-01-30 12:00:00 -0500
   title: "Add superpowers to on your on-chain logic at ETHDenver"
   tags: [Blockchain, ETHDenver]
   excerpt: "Ever wish you could enable your on-chain logic to depend on complex external events? Here at Rhombus we've been working on building an oracle platform to take care of all our off-chain needs with the highest level of reliability, security, and computability."
