@@ -7,9 +7,6 @@
   excerpt: "Ever wish you could enable your on-chain logic to depend on complex external events? Here at Rhombus we’ve built an oracle platform to take care of all your data problems with the highest level of reliability, security, and computability."
 ---
 
-Add Street Smarts to your Smart Contracts at ETHDenver
-======================================================
-
 The Rhombus Oracle Platform is at your service
 ----------------------------------------------
 
