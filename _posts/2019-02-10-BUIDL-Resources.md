@@ -12,7 +12,7 @@ Rhombus Resources for Denver BUIDLWeek
 
 Fellow BUIDLers,
 
-Let's cut to the chase - here's what Rhombus' got cooked up for y'all for #BUIDLweek:
+Let's cut to the chase. Here's what Rhombus has cooked up for y'all for #BUIDLweek:
 
 ### Local development and testing:
 
@@ -20,9 +20,13 @@ Let's cut to the chase - here's what Rhombus' got cooked up for y'all for #BUIDL
 
 ### Available Oracle feeds:
 
+Come visit us at our booth, let us know what you're going to build and what you need from us, and we'll make it happen.
+
 You can read more about the return value data types [here](https://github.com/RhombusNetwork/rhombus-public/blob/master/readme.md#possible-data-types).
 
-### Hourly updates provided by Dow Jones
+Some examples already up on Rinkeby:
+
+### Hourly updates for financial data:
 
 -   \<DECIMAL> [AMZN](https://rinkeby.etherscan.io/address/0x0dc46Ead780eE9D432477255D695C249fDa7A566), [NVDA](https://rinkeby.etherscan.io/address/0x114C97deD229F8390fB0900e3D98dDe57aBa01d2), [TSLA](https://rinkeby.etherscan.io/address/0x6C7a951d27B0fCdcE217d621c5CeE74DAF5d6b28) stock price
 
@@ -56,6 +60,8 @@ You can read more about the return value data types [here](https://github.com/Rh
 
 ### Demos (more details at our [public repo](https://github.com/RhombusNetwork/rhombus-public)):
 
+We've built some dapps to demonstrate the capabilities of Rhombus oracles and how the integration works:
+
 -   [Daily Allowance](https://github.com/RhombusNetwork/rhombus-public/tree/master/DailyAllowance) [subscription dApp]
 
 Use the 'poke' feature of our Lighthouse contract to notify a dApp when a new value has been sent to the Lighthouse. Here, the new value is the exchange rate for ten cents of USD denominated in ETH. The dApp uses this exchange rate to pay out one dollar to a given contract every day. [See the live dApp here](https://rinkeby.etherscan.io/address/0x569702e8f49d802a8816726491a3a9070a001d03#code).
@@ -68,6 +74,6 @@ An imaginary petting zoo uses the Ethereum network to manage its subscriptions. 
 
 A company is in the business of offering gold for investment purposes both in the form of fungible tokens backed by 1kg gold bars (no holding is tied to any specific bars) and non-fungible tokens where each token represents a unique gold bar. Using a Rhombus oracle, the dApp can negotiate with the client using up-to-the minute Gold price quotes. [See the live dApp here.](https://rinkeby.etherscan.io/address/0x16d5d4e29be197ef1f7ac414e59833edc240bdc8#code)
 
-We absolutely cannot wait to see what you build!
+We can't wait to see what you'll build! If you have any questions, please don't hesitate to ask.
 
 -The Rhombus Team
