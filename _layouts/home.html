@@ -13,6 +13,7 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <div class="post-list">
       {%- for post in site.posts -%}
+      {% unless post.hidden %}
         {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
         <a class="post-link" href="{{ post.url | relative_url }}">
           <article class="post-block">
@@ -45,6 +46,7 @@ layout: default
             </div>
           </article>
         </a>
+      {% endunless %}
       {%- endfor -%}
     </div>
 
