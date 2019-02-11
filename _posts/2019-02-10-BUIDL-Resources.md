@@ -1,7 +1,7 @@
 ---
   layout: post
   author: dougvk
-  date:   2019-02-10 12:00:00 -0500
+  date:   2019-02-09 12:00:00 -0500
   title: "Rhombus Resources for Denver BUIDLWeek"
   tags: [Blockchain, ETHDenver]
   excerpt: "Here's what Rhombus' got cooked up for y'all for #BUIDLweek"
