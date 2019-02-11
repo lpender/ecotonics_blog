@@ -50,3 +50,36 @@ To deploy the post, simply merge to `master`.
 
 Please avoid lines greater than 80 characters. You may wish to use a code
 autoformatter such as `prettier` to enforce this.
+
+## Hiding a post
+
+Hiding posts is accomplished by setting options in the YML front matter.
+
+### So that it is not externally viewable
+
+To hide your post from XML feed, sitemap, and front page.
+
+```
+  sitemap: false
+```
+
+It will still be viewable by users who go directly to the link.
+
+### So that it is not viewable until a certain date
+
+You can set the date to a date in the future and the post will not be viewable
+by anyone until that time.
+
+i.e.
+
+```
+  date: 3018-01-20 12:00:00 -0500
+```
+
+### So that it cannot be viewed at all
+
+To hide your post from all viewers
+
+```
+  published: false
+```
