@@ -18,23 +18,23 @@ Let's cut to the chase - here's what Rhombus' got cooked up for y'all for #BUIDL
 
 [We've released a truffle box](https://github.com/RhombusNetwork/lighthouse-local) that includes our Lighthouse contracts as well as an example dApp (including a full suite of tests -- solidity and javascript). We hope this makes your trip from idea to Rinkeby (or goerli) a smooth one!
 
-#### Available Oracle feeds:
+### Available Oracle feeds:
 
 You can read more about the return value data types [here](https://github.com/RhombusNetwork/rhombus-public/blob/master/readme.md#possible-data-types).
 
-### Hourly updates provided by Dow Jones
+#### Hourly updates provided by Dow Jones
 
 -   \<DECIMAL> [AMZN](https://rinkeby.etherscan.io/address/0x0dc46Ead780eE9D432477255D695C249fDa7A566), [NVDA](https://rinkeby.etherscan.io/address/0x114C97deD229F8390fB0900e3D98dDe57aBa01d2), [TSLA](https://rinkeby.etherscan.io/address/0x6C7a951d27B0fCdcE217d621c5CeE74DAF5d6b28) stock price
 
 -   \<DECIMAL> USD exchange rate to [GBP](https://rinkeby.etherscan.io/address/0x15d1857D57735aBD48C50E5c7a54d0aCBfB88B13), [EUR](https://rinkeby.etherscan.io/address/0x383B502E0DC5f608BC4573fB6fF40bf4aed4fD3f), [JPY](https://rinkeby.etherscan.io/address/0x47868830Fe135AE4795173fd9255EEd0AED1b7Cd)
 
-### Hourly updates provided by Alethio
+#### Hourly updates provided by Alethio
 
 -   \<DECIMAL> [Last hour ETH transaction volume](https://rinkeby.etherscan.io/address/0x5d8dca07D30dC77ac1B3BBF6bC639A0335658166)
 
 -   \<INT> [Last hour number of ETH transactions on-chain](https://rinkeby.etherscan.io/address/0xED11119559EBe416d2637f1656ba77d9cE885C06)
 
-### Hourly updates provided by Rhombus
+#### Hourly updates provided by Rhombus
 
 -   \<DECIMAL> [USD/ETH exchange rate](https://rinkeby.etherscan.io/address/0x9aED5cA00A44682cDC488b7778728a728717f7e3)
 
@@ -50,7 +50,7 @@ You can read more about the return value data types [here](https://github.com/Rh
 
 -   \<INT> [Random number generator (1 through 6)](https://rinkeby.etherscan.io/address/0x613d2159db9ca2fbb15670286900ad6c1c79cc9a)
 
-### 10 minute updates provided by Rhombus
+#### 10 minute updates provided by Rhombus
 
 -   \<STRING> [Random color generator (ROYGBIV)](https://rinkeby.etherscan.io/address/0x46b0EA3449C3D583c82A19028C35B36357dD2E2B)
 
