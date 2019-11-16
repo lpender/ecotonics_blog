@@ -13,27 +13,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Oracular Vernacular
+title: Dim Sum
 description: >- # this means to ignore newlines until "baseurl:"
-  A blog by Rhombus Network, provider of ethereum blockchain oracles.
-company_name: Rhombus Network
-company_url: https://rhombus.network
-email: admin@rhombus.network
+  Tasty tech morsels from Lunchtime Labs.
+company_name: Lunchtime Labs
+company_url: https://lunchtimelabs.io
+email: lee@lunchtimelabs.io
 future: false
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.rhombus.network" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: rhombusnetwork
-github_username:  rhombusnetwork
-segment: "iSf63pEG94lzRC8ym9pcBRMdrSsSn8oG"
+url: "https://dim-sum.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: lunchtimelabs
+# github_username:  lunchtimelabs
+# segment: ""
 show_excerpts: true
-icon: "/assets/images/logo-192.png"
+icon: "/assets/images/logo.png"
 permalink: /:categories/:title
 
 defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logo-192.png
+      image: /assets/images/logo.png
 
 # Build settings
 markdown: kramdown

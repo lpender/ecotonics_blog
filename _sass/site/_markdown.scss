@@ -21,15 +21,15 @@
 
   ol {
     list-style: none;
-    counter-reset: oracular-counter;
+    counter-reset: lunchtime-counter;
   }
 
   ol > li {
-    counter-increment: oracular-counter;
+    counter-increment: lunchtime-counter;
   }
 
   ol > li::before {
-    content: counter(oracular-counter) '. ';
+    content: counter(lunchtime-counter) '. ';
     font-size: 1em;
     font-weight: 300;
     font-family: Times New Roman;

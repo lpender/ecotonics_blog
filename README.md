@@ -1,7 +1,6 @@
-# Oracular Vernacular
+# Dim Sum
 
-This repository contains the blog of [Rhombus
-Network](https://rhombus.network/).
+This repository contains the blog of [Lunchtime Labs](https://lunchtimelabs.io/).
 
 Framework: [Jekyll](https://jekyllrb.com/)
 
