@@ -10,7 +10,7 @@ image_alt: "A rocket ship launching into space."
 tags: [rspec, react, rails, end-to-end]
 excerpt: "The Rails monolith is considered by many to be passé. But if your app
 uses a front end framework such as React to talk to a API, chances are you're
-not de-in testing."
+not doing proper outside-in testing."
 ---
 
 The Rails monolith is considered by some to be a classic go-to, by others
