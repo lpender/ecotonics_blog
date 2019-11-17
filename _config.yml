@@ -18,7 +18,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Tasty tech morsels from Lunchtime Labs.
 company_name: Lunchtime Labs
 company_url: https://lunchtimelabs.io
-email: lee@lunchtimelabs.io
+email: hello@lunchtimelabs.io
 future: false
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dim-sum.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
