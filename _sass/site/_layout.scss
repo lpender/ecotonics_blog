@@ -114,6 +114,8 @@
 }
 
 .post-block__image {
+  max-width: 100px;
+
   picture {
     display: flex;
     align-items: center;
@@ -222,7 +224,7 @@
 
 .post-content {
   font-family: Georgia;
-  font-size: 20.75px;
+  font-size: 18.75px;
   line-height: 1.58;
   color: #333;
   max-width: 740px;
@@ -266,10 +268,6 @@
   }
 
   figure {
-    margin-left: -30px;
-    width: calc(100% + 60px);
-    margin-top: $spacing-unit * 2;
-
     @include media-query($on-tablet) {
       margin-left: -30px;
       width: calc(100% + 60px);
@@ -279,6 +277,11 @@
       margin-left: -20px;
       width: calc(100% + 40px);
     }
+  }
+
+  figure.image {
+    margin-left: -30px;
+    width: calc(100% + 60px);
   }
 }
 
