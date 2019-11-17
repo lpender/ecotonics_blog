@@ -3,14 +3,14 @@ layout: post
 author: lpender
 title:  "End-to-End Testing React Apps"
 subtitle: "Long live RSpec"
-date:   2018-01-23 19:09:05 -0500
+date:   2019-11-11 19:09:05 -0500
 categories: rspec, javascript, web-app, react, capybara
 image: "/assets/images/posts/end-to-end-testing-react-apps/Red_onion_cross_section_04.jpg"
 image_alt: "A rocket ship launching into space."
 tags: [rspec, react, rails, end-to-end]
 excerpt: "The Rails monolith is considered by many to be passé. But if your app
 uses a front end framework such as React to talk to a API, chances are you're
-not writing doing proper outside-in testing."
+not de-in testing."
 ---
 
 The Rails monolith is considered by some to be a classic go-to, by others
@@ -115,7 +115,7 @@ Now initialize rspec
 $ rspec --init
 ```
 
-Now running should show basically nothing:
+Now running rspec should show basically nothing:
 
 ```
 $ rspec
@@ -197,7 +197,7 @@ Dir[Dir.pwd + "/spec/support/**/*.rb"].each { |file| require file }
 Billy.configure do |config|
   config.cache = true
   config.cache_path = 'spec/fixtures/features' # remove to get fresh mocks
-  config.cache_request_body_methods = ['post', 'get', 'put'] # defaults to ['post']
+  config.cache_request_body_methods = ['post', 'get', 'put']
   config.ignore_params = []
   config.logger = nil # comment to see logs
   config.non_successful_cache_disabled = false
@@ -257,7 +257,7 @@ calls to APIs and other services.
 That won't work here, because the calls aren't coming from a backend client like
 Rails--they're AJAX calls coming from the browser.
 
-Instead, we're using a library here called [Puffing
+Instead, we're using a library called [Puffing
 Billy](https://github.com/oesmith/puffing-billy).
 
 The first time you run the test, Puffing Billy will make calls to your actual
