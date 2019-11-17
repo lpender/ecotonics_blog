@@ -82,3 +82,11 @@ To hide your post from all viewers
 ```
   published: false
 ```
+
+## New Post
+
+```
+jekyll page "New Page"
+jekyll post "New Post"
+jekyll draft "New Draft"
+```

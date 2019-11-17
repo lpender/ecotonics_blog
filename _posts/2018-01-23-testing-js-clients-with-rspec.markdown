@@ -77,7 +77,7 @@ expected, increasing both stability and in the long run, velocity.
 
 ## Introduce Ruby to your Repo
 
-Open your React repository and follow the instructions below:
+Open your React/Vue/SPA repository and follow the instructions below:
 
 ```
 $ bundle init
