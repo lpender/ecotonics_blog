@@ -24,7 +24,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://blog.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: lunchtimelabs
 # github_username:  lunchtimelabs
-# segment: ""
+segment: "ffxBC8cYRxjBIN60DwdZ6rcTey0C3C8l"
 show_excerpts: true
 icon: "/assets/images/logo.png"
 permalink: /:categories/:title
