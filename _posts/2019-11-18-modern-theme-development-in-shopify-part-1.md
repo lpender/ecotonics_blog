@@ -10,7 +10,7 @@ variables in a Shopify theme."
 date: 2019-11-18 14:29 -0800
 ---
 
-## Challenges of Theme Development
+## Life without MVC
 
 Shopify theme development does not allow access to the Model or the Controller
 layers like a traditional MVC structured repository. These are places where
