@@ -21,7 +21,7 @@ company_url: https://lunchtimelabs.io
 email: hello@lunchtimelabs.io
 future: false
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://dim-sum.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: lunchtimelabs
 # github_username:  lunchtimelabs
 # segment: ""
