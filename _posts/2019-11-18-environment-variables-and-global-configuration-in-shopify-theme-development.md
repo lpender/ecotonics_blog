@@ -13,19 +13,38 @@ date: 2019-11-18 14:29 -0800
 
 Part of the reason that Shopify theme development is so difficult is that we are
 not given access to the Model or the Controller layers of a traditional MVC
-structured repository, places where developers would traditionally store logic
+structured repository, places where developers would traditionally store logic.
 
-We hedge against this by moving to client-side MVC with a framework such as
-Vue.JS, so that we can have a proper separation of concerns.
+As such, we often see Liquid code strewn with complex logic which is difficult
+to read, modify, fix, or extend.
+
+We often hedge against this by moving to client-side MVC with a framework such
+as Vue.JS, so that we can have a proper separation of concerns.
 
 ## Environment variables
 
-Again, because of the lack of access to controllers and models, global
-configuration becomes a difficult task. Luckily, we aren't going to find a lot
-of private api keys in the Liquid code anyway, since we're not making any
-server-to-server calls from Liquid code.
+One of the difficult aspects of theme development is the inability to set or
+access environment variables, making impossible the separation of concerns
+required for a proper [12 factor app](https://12factor.net/).
 
-We can put config right into the JavaScript:
+In continuing with the theme from above, we move to storing `ENV` variables in
+`JS`, rather than `Liquid`, which gives us the ability to generate modular,
+well-written code.
+
+A concern is that it may be improper to store `ENV` variables in the front end
+code. Because client-side code is inherently open-source and insecure, it's
+important not to accidentally store any secrets in the `JS` environment.
+
+Luckily, we aren't going to find a lot of private API keys in the Liquid code
+anyway. Because `Liquid` is already a view layer, it's not able to perform
+server-to-server calls.
+
+One reason you might wish to add `ENV` variables is if your Shopify theme relies
+on custom apps to extend functionalities. In this case, you would want your
+`staging` store to access the corresponding assets on the `staging` app so that
+you can properly run acceptance.
+
+We put config right into the JavaScript:
 
 ```
 # assets/js/env/index.js
@@ -33,18 +52,18 @@ We can put config right into the JavaScript:
 let config = {
   development: {
     store_env: 'development',
-    loyalty_domain: 'https://mack-weldon-loyalty.ngrok.io',
+    my_domain: 'https://custom-domain.ngrok.io',
   },
   production: {
     store_env: 'production',
-    loyalty_domain: 'https://mw-loyalty-app-2.herokuapp.com'
+    my_domain: 'https://my-app.herokuapp.com'
   },
   qa: {
-    store_env: 'qa',
-    loyalty_domain: 'https://mw-loyalty-app-2-qa.herokuapp.com'
+    store_env: 'staging',
+    my_domain: 'https://my-app-staging.herokuapp.com'
   },
   shared: {
-    loyalty_path_to_js: "/mw-loyalty/mw-loyalty.js"
+    my_path_to_js: "/assets/my_asset.js"
   },
 }
 
@@ -53,18 +72,28 @@ window.ENV = {
     let domain = window.location.hostname;
 
     if (domain.indexOf("qa") > -1) {
-      return config.qa.store_env
+      return config.staging.store_env
     } else if (domain.indexOf("dev") > -1) {
       return config.development.store_env
     } else {
       return config.production.store_env
     }
   },
-  loyalty_domain: function() {
-    return config[ENV.shop_env()].loyalty_domain
+  my_domain: function() {
+    return config[ENV.shop_env()].my_domain
   },
-  loyalty_js_url: function() {
-    return ENV.loyalty_domain() + config.shared.loyalty_path_to_js
+  my_js_url: function() {
+    return ENV.my_domain() + config.shared.my_path_to_js
   }
 }
+```
+
+Access the variables from your theme code as follows:
+
+```
+# snippets/mysnippet.liquid
+
+$.getScript({
+  url: ENV..my_js_url,
+})
 ```
