@@ -64,7 +64,7 @@ let config = {
     store_env: 'production',
     my_domain: 'https://my-app.herokuapp.com'
   },
-  qa: {
+  staging: {
     store_env: 'staging',
     my_domain: 'https://my-app-staging.herokuapp.com'
   },
@@ -77,7 +77,7 @@ window.ENV = {
   shop_env: function() {
     let domain = window.location.hostname;
 
-    if (domain.indexOf("qa") > -1) {
+    if (domain.indexOf("staging") > -1) {
       return config.staging.store_env
     } else if (domain.indexOf("dev") > -1) {
       return config.development.store_env
