@@ -10,11 +10,26 @@ variables in a Shopify theme."
 date: 2019-11-18 14:29 -0800
 ---
 
+## Challenges of Theme Development
+
+Part of the reason that Shopify theme development is so difficult is that we are
+not given access to the Model or the Controller layers of a traditional MVC
+structured repository, places where developers would traditionally store logic.
+
+As such, we often see Liquid code strewn with complex logic which is difficult
+to read, modify, fix, or extend.
+
+We often hedge against this by moving to client-side MVC with a framework such
+as Vue.JS, which allow us to develop with a proper separation of concerns.
+
 ## Environment variables
 
-One of the difficult aspects of theme development is the inability to set or
-access environment variables, making impossible the separation of concerns
-required for a proper [12 factor app](https://12factor.net/).
+Environment variables (or the lack thereof) are one of the challenges created by
+view-only development that Shopify theme development insists on. Liquid does not
+allow `ENV` variables, nor does it not easily lend itself to server-side
+solutions that would mimic that sort of functionaltiy, rendering adherence to
+the principles of a proper [12 factor app](https://12factor.net/) nearly
+impossible.
 
 In continuing with the theme from above, we move to storing `ENV` variables in
 `JS`, rather than `Liquid`, which gives us the ability to generate modular,
