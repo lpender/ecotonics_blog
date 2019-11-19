@@ -10,18 +10,6 @@ variables in a Shopify theme."
 date: 2019-11-18 14:29 -0800
 ---
 
-## Life without MVC
-
-Part of the reason that Shopify theme development is so difficult is that we are
-not given access to the Model or the Controller layers of a traditional MVC
-structured repository, places where developers would traditionally store logic.
-
-As such, we often see Liquid code strewn with complex logic which is difficult
-to read, modify, fix, or extend.
-
-We often hedge against this by moving to client-side MVC with a framework such
-as Vue.JS, so that we can have a proper separation of concerns.
-
 ## Environment variables
 
 One of the difficult aspects of theme development is the inability to set or
