@@ -36,8 +36,8 @@ In this unit, we elect to store `ENV`-like variables in a `window` level
 (global) JavaScript, object, rather than `Liquid`. This gives us the ability to
 generate modular, well-written code.
 
-A concern is that it may be improper to store `ENV` variables in the front end
-code. Because client-side code is inherently open-source and insecure, it's
+A valid concern is that it may be improper to store `ENV` variables in the front
+end code. Because client-side code is inherently open-source and insecure, it's
 important not to accidentally store any secrets in the `JS` environment.
 
 Luckily, we aren't going to find a lot of private API keys in the Liquid code
