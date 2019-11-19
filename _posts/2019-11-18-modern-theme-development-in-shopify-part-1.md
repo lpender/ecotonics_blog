@@ -12,9 +12,10 @@ date: 2019-11-18 14:29 -0800
 
 ## Challenges of Theme Development
 
-Part of the reason that Shopify theme development is so difficult is that we are
-not given access to the Model or the Controller layers of a traditional MVC
-structured repository, places where developers would traditionally store logic.
+Shopify theme development does not allow access to the Model or the Controller
+layers like a traditional MVC structured repository. These are places where
+developers would traditionally store logic and computation before delivering
+pre-processed data to the presentation layer.
 
 As such, we often see Liquid code strewn with complex logic which is difficult
 to read, modify, fix, or extend.
@@ -31,9 +32,9 @@ solutions that would mimic that sort of functionaltiy, rendering adherence to
 the principles of a proper [12 factor app](https://12factor.net/) nearly
 impossible.
 
-In continuing with the theme from above, we move to storing `ENV` variables in
-`JS`, rather than `Liquid`, which gives us the ability to generate modular,
-well-written code.
+In this unit, we elect to store `ENV`-like variables in a `window` level
+(global) JavaScript, object, rather than `Liquid`. This gives us the ability to
+generate modular, well-written code.
 
 A concern is that it may be improper to store `ENV` variables in the front end
 code. Because client-side code is inherently open-source and insecure, it's
@@ -41,14 +42,15 @@ important not to accidentally store any secrets in the `JS` environment.
 
 Luckily, we aren't going to find a lot of private API keys in the Liquid code
 anyway. Because `Liquid` is already a view layer, it's not able to perform
-server-to-server calls.
+server-to-server calls. There are already few secrets in `Liquid` code (with
+some exceptions, i.e. values that are hashed before being surfaced).
 
 One reason you might wish to add `ENV` variables is if your Shopify theme relies
-on custom apps to extend functionalities. In this case, you would want your
-`staging` _store_ to access the corresponding assets on your `staging` _app_ so
-that you can properly run acceptance.
+on custom apps. In this case, you would want your `staging` _store_ to access
+the corresponding assets on your `staging` _app_ so that you can properly run
+acceptance.
 
-We put config right into the JavaScript:
+We put configuration right into the JavaScript:
 
 ```
 # assets/js/env/index.js
@@ -92,7 +94,7 @@ window.ENV = {
 }
 ```
 
-Access the variables from your theme code as follows:
+Ouala. We can access the variables from our theme code as follows:
 
 ```
 # snippets/mysnippet.liquid
