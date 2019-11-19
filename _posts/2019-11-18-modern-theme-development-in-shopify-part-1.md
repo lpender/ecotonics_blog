@@ -1,12 +1,12 @@
 ---
 layout: post
 author: lpender
-title: Modern theme development in Shopify, Part 1
+title: Modern theme development in Shopify: Part 1
 categories: shopify
 tags: [shopify]
 excerpt: "Doing theme modern theme development in Shopify is hard, but there are
-some tricks to the trade. In Part 1, we explore how to set environment variables
-in a Shopify theme."
+some tricks to the trade. Here we explore a strategy for settting environment
+variables in a Shopify theme."
 date: 2019-11-18 14:29 -0800
 ---
 
