@@ -21,7 +21,7 @@ As such, we often see Liquid code strewn with complex logic which is difficult
 to read, modify, fix, or extend.
 
 We often hedge against this by moving to client-side MVC with a framework such
-as Vue.JS, which allow us to develop with a proper separation of concerns.
+as Vue.JS, which allows us to develop with a proper separation of concerns.
 
 ## Environment variables
 
