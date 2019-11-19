@@ -1,7 +1,7 @@
 ---
 layout: post
 author: lpender
-title: Modern theme development in Shopify: Part 1
+title: Modern theme development in Shopify, Part One
 categories: shopify
 tags: [shopify]
 excerpt: "Doing theme modern theme development in Shopify is hard, but there are
