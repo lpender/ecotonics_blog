@@ -42,8 +42,8 @@ server-to-server calls.
 
 One reason you might wish to add `ENV` variables is if your Shopify theme relies
 on custom apps to extend functionalities. In this case, you would want your
-`staging` store to access the corresponding assets on the `staging` app so that
-you can properly run acceptance.
+`staging` _store_ to access the corresponding assets on your `staging` _app_ so
+that you can properly run acceptance.
 
 We put config right into the JavaScript:
 
