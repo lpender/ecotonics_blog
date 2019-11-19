@@ -5,8 +5,8 @@ title:  "End-to-End Testing React Apps"
 subtitle: "Long live RSpec"
 date:   2019-11-11 19:09:05 -0500
 categories: rspec, javascript, web-app, react, capybara
-image: "/assets/images/posts/end-to-end-testing-react-apps/Red_onion_cross_section_04.jpg"
-image_alt: "A rocket ship launching into space."
+image: "/assets/images/posts/end-to-end-testing-react-apps/onion_compressed.jpg"
+image_alt: "Cross section of a red onion"
 tags: [rspec, react, rails, end-to-end]
 excerpt: "The Rails monolith is considered by many to be passé. But if your app
 uses a front end framework such as React to talk to a API, chances are you're
