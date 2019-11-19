@@ -95,6 +95,6 @@ Access the variables from your theme code as follows:
 # snippets/mysnippet.liquid
 
 $.getScript({
-  url: ENV..my_js_url,
+  url: ENV.my_js_url,
 })
 ```
