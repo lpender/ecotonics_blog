@@ -4,7 +4,7 @@ author: lpender
 title:  "End-to-End Testing React Apps"
 subtitle: "Long live RSpec"
 date:   2019-11-11 19:09:05 -0500
-categories: rspec, javascript, web-app, react, capybara
+categories: testing
 image: "/assets/images/posts/end-to-end-testing-react-apps/onion_compressed.jpg"
 image_alt: "Cross section of a red onion"
 tags: [rspec, react, rails, end-to-end]
