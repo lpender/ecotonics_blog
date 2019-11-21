@@ -18,7 +18,7 @@ environments.
 We build [Shopifly CLI dev tools] to make theme development in Shopify much less
 unwieldy.
 
-## Branches = Themes, Period
+## Branches === Themes.
 
 Rather than having every permutation of every theme in every environment stored
 in the `config.yml`, Shopifly enforces a simple set of conventions:
