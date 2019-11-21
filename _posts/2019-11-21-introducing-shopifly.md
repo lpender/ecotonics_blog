@@ -88,8 +88,6 @@ config.shops.yml
 .current_shop
 ```
 
-Commit these changes to your `master` or default branch.
-
 ## Let's Fly
 
 We initialize our repo by running:
