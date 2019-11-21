@@ -15,7 +15,7 @@ If you are doing modern theme development in Shopify, chances are you're doing a
 lot of manual work to keep your branches in sync with your themes across all
 environments.
 
-We build [Shopifly CLI dev tools] to make theme development in Shopify much less
+We built [ShopifLy CLI dev tools]() to make theme development in Shopify much less
 unwieldy.
 
 ## Branches === Themes.
