@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Introducing ShopifLy'
-subtitle: 'Fly CLI tools to make Shopifly theme development manageable'
+subtitle: 'Fly CLI tools to make Shopify theme development manageable'
 date: 2019-11-21 12:40 -0800
 categories: shopify
 tags: [shopify]
