@@ -126,8 +126,6 @@ You can run
 % fly watch
 ```
 
-This will start watching your changes on `staging`.
-
 ## Creating Branch Parity
 
 Here's the real beauty. Let's say that I wanted to start a feature and test it
