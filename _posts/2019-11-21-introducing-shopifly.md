@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Introducing Shopifly'
+title: 'Introducing ShopifLy'
 subtitle: 'Shopifly: CLI tools to make Shopifly theme development manageable'
 date: 2019-11-21 12:40 -0800
 categories: shopify
