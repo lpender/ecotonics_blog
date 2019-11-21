@@ -9,7 +9,7 @@ author: lpender
 sitemap: false
 ---
 
-# Why?
+## Why Fly?
 
 If you are doing modern theme development in Shopify, chances are you're doing a
 lot of manual work to keep your branches in sync with your themes across all
@@ -18,7 +18,7 @@ environments.
 We build [Shopifly CLI dev tools] to make theme development in Shopify much less
 unwieldy.
 
-### Branches = Themes, Period
+## Branches = Themes, Period
 
 Rather than having every permutation of every theme in every environment stored
 in the `config.yml`, Shopifly enforces a simple set of conventions:
@@ -130,7 +130,7 @@ You can run
 
 This will start watching your changes on `staging`.
 
-### Creating Branch Parity
+## Creating Branch Parity
 
 Here's the real beauty. Let's say that I wanted to start a feature and test it
 on a theme based on the `production` store.
@@ -168,7 +168,7 @@ So rather than:
 You simply use `fly` to set the shop and it automatically manages parity between
 branches.
 
-### Removing a branch.
+## Removing a branch.
 
 To remove a branch:
 
@@ -178,7 +178,7 @@ fly destroy my-branch-name
 
 This will destroy the branch locally and remove the remote Shopify theme.
 
-### Installing Git Hooks
+## Installing Git Hooks
 
 If you want to simplify enforcement of branch parity:
 
@@ -199,7 +199,7 @@ This will install a set of git hooks that will do the following:
         - Create a Shopify theme with these contents.
       - Configure Shopifly commands to use this theme
 
-### Other notes
+## Other notes
 
 It's usually helpful to add your `.current_shop` to your command prompt. That's
 outside the scope of this article, but to give you an idea, I have a
@@ -223,7 +223,7 @@ setopt promptsubst
 PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_color%}$(git_prompt_info)$(shopify_shop_info) %# '
 ```
 
-### Conclusion
+## Conclusion
 
 Shopify development is still not the panacea that we might hope for, but it's
 little tools like this that make it easier and easier. We hope you enjoy
