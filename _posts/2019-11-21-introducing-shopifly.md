@@ -210,7 +210,9 @@ git_prompt_info() {
   fi
 }
 shopify_shop_info() {
-  current_shop=$(cat .current_shop)
+  if [[ -f .current_shop ]]; then
+    current_shop=$(cat .current_shop)
+  fi
   if [[ -n $current_shop ]]; then
     echo " %{$fg_bold[red]%}$current_shop%{$reset_color%}"
   fi
