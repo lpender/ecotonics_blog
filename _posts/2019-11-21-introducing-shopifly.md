@@ -21,14 +21,14 @@ unwieldy.
 ## Branches === Themes.
 
 Rather than having every permutation of every theme in every environment stored
-in the `config.yml`, Shopifly enforces a simple set of conventions:
+in the `config.yml`, ShopifLy enforces a simple set of conventions:
 
 1. Enforced parity between _branch_ names and _theme_ names.
 2. Choose which _shop_ you are working on.
 
 Rather than repeatedly copying and pasting the same API key and configuration
 into your `config.yml`, we set the _shop_ that we are working on locally,
-surface it clearly in the CLI, and rely on Shopifly's git hooks to enforce
+surface it clearly in the CLI, and rely on ShopifLy to enforce
 parity between you local branch names and Shopify themes.
 
 ## Getting Started
@@ -227,4 +227,4 @@ PS1='${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%c%{$reset_c
 
 Shopify development is still not the panacea that we might hope for, but it's
 little tools like this that make it easier and easier. We hope you enjoy
-Shopifly.
+ShopifLy.
