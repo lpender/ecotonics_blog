@@ -141,7 +141,7 @@ on a theme based on the `production` store.
 This will do the following:
 
 - Check if the theme `my-new-feature` exists on the `production` shop.
-  - If so start watching for changes and uplaoding them to that theme.
+  - If so start watching for changes and uploading them to that theme.
   - If not:
     - Prompt user to create the remote theme?
       - Zip the contents of the `shared_config.directory` specified in your
