@@ -1,14 +1,14 @@
 ---
 layout: post
-author: lpender
+author: dwoolf
 title: 'How we chose the active ingredient in Wild Side'
 subtitle: 'Non-toxicity and effectiveness against ticks were our top priorities'
 date: 2018-12-08 12:00:00 -0500
 categories: bugs
 published: true
-excerpt: "After hours of research combing all the scientific literature, we
-decided that IR3535 is safer on skin, and more effective against the bugs we're
-most scared of"
+excerpt: "After hours of research combing scientific literature, we feel
+confident that IR3535 is the safest and most effective active that we trust
+against the bugs we're most scared of"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
