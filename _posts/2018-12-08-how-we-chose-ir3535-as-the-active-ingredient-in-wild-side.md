@@ -1,6 +1,6 @@
 ---
 layout: post
-author: dwoolf
+author: devin
 title: 'How we chose the active ingredient in Wild Side'
 subtitle: 'Non-toxicity and effectiveness against ticks were our top priorities'
 date: 2018-12-08 12:00:00 -0500
