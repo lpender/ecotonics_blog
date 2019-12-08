@@ -21,7 +21,7 @@ company_url: https://ecotone.io
 email: team@ecotone.io
 future: false
 baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "https://blog.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.ecotone.io" # the base hostname & protocol for your site, e.g. http://example.com
 # segment: "ffxBC8cYRxjBIN60DwdZ6rcTey0C3C8l"
 show_excerpts: true
 icon: "/assets/images/logo.png"
