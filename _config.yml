@@ -13,18 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dim Sum
+title: Ecotonics
 description: >- # this means to ignore newlines until "baseurl:"
-  Tech morsels from Lunchtime Labs.
-company_name: Lunchtime Labs
-company_url: https://lunchtimelabs.io
-email: hello@lunchtimelabs.io
+  Knowledge from ecotone
+company_name: ecotone
+company_url: https://ecotone.io
+email: team@ecotone.io
 future: false
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://blog.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: lunchtimelabs
-# github_username:  lunchtimelabs
-segment: "ffxBC8cYRxjBIN60DwdZ6rcTey0C3C8l"
+# url: "https://blog.lunchtimelabs.io" # the base hostname & protocol for your site, e.g. http://example.com
+# segment: "ffxBC8cYRxjBIN60DwdZ6rcTey0C3C8l"
 show_excerpts: true
 icon: "/assets/images/logo.png"
 permalink: /:categories/:title

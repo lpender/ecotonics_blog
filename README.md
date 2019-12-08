@@ -1,6 +1,6 @@
-# Dim Sum
+# Ecotonics
 
-This repository contains the blog of [Lunchtime Labs](https://lunchtimelabs.io/).
+This repository contains the blog of [ecotone](https://ecotone.io/).
 
 Framework: [Jekyll](https://jekyllrb.com/)
 
