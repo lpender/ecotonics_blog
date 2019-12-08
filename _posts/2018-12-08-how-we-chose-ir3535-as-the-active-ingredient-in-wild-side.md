@@ -8,7 +8,7 @@ categories: bugs
 published: true
 excerpt: "After hours of research combing scientific literature, we feel
 confident that IR3535 is the safest and most effective active that we trust
-against the bugs we're most scared of"
+against the bugs we're most scared of."
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
